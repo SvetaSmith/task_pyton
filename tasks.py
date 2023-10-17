@@ -15,4 +15,10 @@ for i in range(len(tasks)):
   print (tasks[i][0] + ' ' + tasks[i][1])
  
 #task 3
-tasks = []
+dict = {}
+
+for i in range(3):
+  date = input ('Введите дату:')
+  task = input ('Введите задачу:')
+  dict[date] = task
+
